@@ -8,3 +8,7 @@
 /tmp/
 *.gem
 .rspec_status
+
+# Gem de biblioteca: cada ambiente resolve as dependências para o próprio
+# Ruby. Versionar o lock prende a matriz de CI na resolução de uma versão só.
+Gemfile.lock
